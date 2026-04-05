@@ -43,14 +43,14 @@
 
     <!-- Audio tự động phát -->
     <audio id="birthday-audio" loop>
-        <source src="/music/setlove.mp3" type="audio/mpeg">
+        <source src="bday.mp3" type="audio/mpeg">
     </audio>
       <script src='https://cdn.jsdelivr.net/npm/canvas-confetti@1/dist/confetti.browser.min.js'></script>
     <script src="main.js"></script>
 
     <script>
         window.onload = function () {
-            var audio = document.getElementById("myAudio");
+            var audio = document.getElementById("birthday-audio");
             audio.muted = false;
             audio.play().catch(function (e) {
                 console.log('Audio playback failed:', e);
