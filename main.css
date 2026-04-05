@@ -43,10 +43,10 @@ body {
     position: absolute;
     left: 0;
     object-fit: cover;
-    /* width: 86px;
-    height: 124px; */
-    width: 100px;
-    height: 180px;
+    width: 86px;
+    height: 124px;
+    /* width: 100px;
+    height: 180px; */
     background-position: center;
     background-position-y: 93px;
     background-size: cover;
